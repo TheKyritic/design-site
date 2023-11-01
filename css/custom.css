@@ -73,12 +73,14 @@ nav a:not(:last-child)::after
 
 .header img 
 {
-    align-self: baseline;
-    width: 250px;
-    height: 125px;
     background: #555;
     margin-right: 10px;
+    width: 100%;
+    max-width: min-content;
+    height: auto;
 }
+
+
 
 main
 {
