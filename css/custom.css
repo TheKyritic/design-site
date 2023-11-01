@@ -1,1 +1,86 @@
 /* Brandon Daniels ~ WDD 222 ~ 10/17/2023 */
+/* Brandon Daniels ~ WDD 222 ~ 11/1/2023 */
+
+.bkg /* div for background of whole page */
+{
+    background-color: rgb(128, 128, 128);
+}
+
+.container /* div container for body element */
+{
+    background-color: white;
+    border: 1px solid black;
+    padding: 0%;
+    min-width: 75%;
+}
+
+nav
+{
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding-right: 20%;
+  font-size: large;
+  background-color: black;
+}
+
+nav a
+{
+    display: inline-block;
+    padding:0 7px;
+    position: relative;
+}
+
+nav a:link{color: purple;}
+nav a:visited{color: white}
+nav a:hover{color: orangered;}
+nav a:focus{color: red;}
+
+nav a:not(:last-child)::after
+{
+    content: "";
+    border: 1px solid #e2e2e2;
+    border-width: 1px 1px 0 0;
+    position: absolute;
+    right:-3px;
+    top: 0;
+    height: 100%;
+}
+
+.card /* header / footer */
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+
+.header  /* header only changes */
+{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+   
+}
+
+.header h1
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.header img 
+{
+    align-self: baseline;
+    width: 250px;
+    height: 125px;
+    background: #555;
+    margin-right: 10px;
+}
+
+main
+{
+    min-height: 160px;
+}
