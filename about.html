@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
-    <!--Brandon Daniels WDD222 ~ 10/17/2023-->
+  <!--Brandon Daniels WDD222 ~ 10/17/2023-->
+  <!--Brandon Daniels WDD222 ~ 10/30/2023-->
+  <!--Brandon Daniels WDD222 ~ 11/8/2023-->
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,22 +10,79 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <!--Custom Styles-->
-   <link rel="stylesheet" href="css/custom.css">
+   <!--Google Fonts link for Bebas Neue && Poppins-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Font Awesome Icons link-->
+    <script src="https://kit.fontawesome.com/91c4d6c69c.js" crossorigin="anonymous"></script>
     <title>About Us</title>
   </head>
-  <body>
-    <h1>About Us</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <body>
+      <div class ="bkg">
+      <div class="container">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html" id="curPage">About Us</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a> 
+      </nav> 
+      <header class ="header card">
+         <h1>  <img src ="images/pc-trio.png" alt="logo" class="responsive" >Daniels' Custom <br> Desktops  </h1>
+      </header>
+      <main>
+        <h2 class="display-6"> About Us </h2> 
+      <div class="row">
+        <div class="bd col-lg-6 col-md-9 col-sm-12">
+          <h3 class="display-6">Who We Are: </h3>
+          <table class="table table-striped table-borderless table-hover table-responsive">
+            <thead class="thead-dark thead-responsive">
+              <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Contact Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Brandon <i class="fa-solid fa-ghost fa-bounce" style="color: #f20707;"></i></b></td>
+                <td>Computer Technician & Owner</td>
+                <td><a href = "mailto:Bdaniels0304@StarkState.net">Bdaniels0304@starkstate.net</a></td>
+              </tr>
+              <tr>
+                <td><b>Kayla <i class="fa-solid fa-scale-balanced fa-beat-fade" style="color: #08fd59;"></i></b></td>
+                <td>Saleswoman</td>
+                <td><a href = "mailto:KDG123@hotmail.com">KDG123@hotmail.com</a></td>
+              </tr>
+              <tr>
+                <td><b>Joshua <i class="fa-solid fa-skull-crossbones fa-flip" style="color: #000000;"></i></b></td>
+                <td>Front Desk Clerk / Apprentice Computer Technician</td>
+                <td><a href = "mailto:JoshP123@gmail.com">JoshP123@gmail.com</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div> 
+        <div class="bd col-lg-6 col-md-3 col-sm-12">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, illum consectetur cumque veritatis alias fugiat assumenda quod voluptatibus, nihil, accusamus id! Quasi laudantium iure nam eum autem quaerat dicta minus.</p>
+        </div>
+      </div>
+      </main>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <footer class ="card">
+    <p> &copy; Brandon Daniels 2023 <br>
+      <a href = "mailto:Bdaniels0304@StarkState.net" >Contact Me Here </a>
+          </p>
+  </footer>
+</div>
+</div>
+</body>
 </html>
