@@ -41,7 +41,7 @@ nav a:focus{color: lightblue;}
 #curPage:hover{color: green;}
 #curPage:focus{color: lightblue;}
 
-nav a:not(:last-child)::after
+.nav-item:not(:last-child)::after
 {
     content: "";
     border: 1px solid #e2e2e2;
