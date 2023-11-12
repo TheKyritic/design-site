@@ -71,12 +71,11 @@ nav a:focus{color: lightblue;}
 .header h1
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 60px;
     font-family: 'Bebas Neue', sans-serif;
     padding-top: .5em;
 }
-
 
 .header img 
 {
@@ -109,4 +108,40 @@ table
 i
 {
     margin-left: 5px;
+}
+
+#concerns
+{
+   margin-left: 9%; 
+}
+
+#contactButton
+{
+    margin: 1em;
+    position: relative;
+    left: 40%;
+}
+
+/* Media Queries change the text of the H1 element in our header for all pages
+in order to resize the the header to make it more user friendly. */
+
+@media (max-width: 991.98px) 
+{ 
+    .header h1
+    {
+        font-size: 2.5rem;
+    }
+
+    #concerns
+    {
+        margin-left: 0; 
+    }
+}
+
+@media (max-width: 767.98px) 
+{ 
+    .header h1
+    {
+        font-size: 1.75rem;
+    }
 }
