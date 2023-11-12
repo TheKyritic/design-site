@@ -14,6 +14,12 @@
     min-width: 75%;
 }
 
+.bd
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 nav
 {
   list-style: none;
