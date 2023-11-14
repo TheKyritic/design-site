@@ -128,6 +128,17 @@ i
     left: 40%;
 }
 
+
+.jumbotron p
+{
+    text-align: center;
+}
+
+textarea
+{
+    resize: none;
+}
+
 /* Media Queries change the text of the H1 element in our header for all pages
 in order to resize the the header to make it more user friendly. */
 
