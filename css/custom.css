@@ -154,6 +154,16 @@ textarea
     background-color: whitesmoke;
 }
 
+.row
+{
+    margin: 1em;
+}
+
+.bd a img
+{
+    
+    width: 100%;
+}
 
 /* Media Queries change the text of the H1 element in our header for all pages
 in order to resize the the header to make it more user friendly. */
