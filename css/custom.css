@@ -165,6 +165,12 @@ textarea
     width: 100%;
 }
 
+.modal-content
+{
+    height: 100%;
+    border: 0;
+}
+
 /* Media Queries change the text of the H1 element in our header for all pages
 in order to resize the the header to make it more user friendly. */
 
