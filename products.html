@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-    <!--Brandon Daniels WDD222 ~ 10/17/2023-->
+  <!--Brandon Daniels WDD222 ~ 10/17/2023-->
+  <!--Brandon Daniels WDD222 ~ 10/30/2023-->
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,22 +9,85 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <!--Custom Styles-->
-   <link rel="stylesheet" href="css/custom.css">
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="css/custom.css">
     <title>Products</title>
   </head>
-  <body>
-    <h1>Products</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="*">Products</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <body>
+      <div class ="bkg">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html" >DCD</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsed-content">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html" id="curPage">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" >Contact</a>
+              </li>
+            </ul>
+          </div>
+      </nav> 
+      <header class ="header card">
+         <h1>  <img src ="images/pc-trio.png" alt="logo" class="responsive">Daniels' Custom <br> Desktops</h1>
+      </header>
+      <main>
+      <div class="row justify-content-center">
+        <div class="bd col-12 col-md-9 col-sm-12 ">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              <img src="images/corsair.jpg" class="d-block w-100 img-fluid" alt="corsair desktop">
+              </div>
+              <div class="carousel-item">
+              <img src="images/rzr.jpg" class="d-block w-100 img-fluid" alt="razer desktop">
+              </div>
+              <div class="carousel-item">
+              <img src="images/laptop.jpg" class="d-block w-100 img-fluid" alt="gaming laptop">
+              </div>
+              <div class="carousel-item">
+              <img src="images/gpu.jpg" class="d-block w-100 img-fluid" alt="computer gpu">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>     
+        </div> 
+        <div class="bd col-lg-12 col-md-9 col-sm-12 ">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, illum consectetur cumque veritatis alias fugiat assumenda quod voluptatibus, nihil, accusamus id! Quasi laudantium iure nam eum autem quaerat dicta minus.</p>
+        </div>
+      </div>
+      </main>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <footer class ="card">
+    <p> &copy; Brandon Daniels 2023 <br>
+      <a href = "mailto:Bdaniels0304@StarkState.net" >Contact Me Here </a>
+          </p>
+  </footer>
+</div>
+</div>
+</body>
 </html>

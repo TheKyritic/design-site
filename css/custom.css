@@ -139,6 +139,22 @@ textarea
     resize: none;
 }
 
+.carousel-item img
+{
+    max-height: 400px;
+    width: 100%;
+}
+
+.carousel-control-prev 
+{
+    background-color: whitesmoke;
+}
+.carousel-control-next
+{
+    background-color: whitesmoke;
+}
+
+
 /* Media Queries change the text of the H1 element in our header for all pages
 in order to resize the the header to make it more user friendly. */
 
